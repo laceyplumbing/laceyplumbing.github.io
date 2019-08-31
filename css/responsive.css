@@ -1,0 +1,261 @@
+@media only screen and ( max-width:1680px) {
+#content { margin:30px 0;}
+}
+
+@media only screen and ( max-width:1360px) {
+#worcester-full { background-size:auto auto;}
+}
+
+@media only screen and ( max-width:1200px) {
+.wrapper,.home-form-inn { width:90%; margin:0 6%;}
+#header { text-align:center; padding:15px 0;}
+.logo,.header-mid,.header-right { float:none; display: inline-block; width:auto; vertical-align: middle; padding-bottom:10px;}
+.header-mid { text-align:left; margin:0 0 0 5%;}
+.header-mid h2 a { display:inline-block;}
+.header-mid li { margin:0 3px;}
+.header-mid li br { display:none;}
+
+.header-right-btn a br { display: none; }
+.header-right-btn a,.header-right-btn a:hover { background-position:top 12px right 13px;}
+
+#box-pen { text-align:center;}
+.box-pen li { width:26%; padding:0px; float:none; display:inline-block; margin: 0 0 2%;}
+.box-pen li a { padding:200px 0 0;}
+
+.areas-we-cover-services {margin: 20px 0 0;}
+
+.areas-we-cover-left { width:10%;}
+.areas-we-cover-right { width:90%;}
+
+.home-services li h2 { padding:15px 0;}
+
+.reviews li { float:none; display:inline-block; width:auto; margin: 0 0 20px;}
+.reviews li img { width:100%;}
+
+.home-form .formrow.pad1 { width:22%;}
+.home-form .formrow { width:23%;}
+.home-form .formrow.pad1 input { font-size:17px;}
+
+.home-services li h2 { font-size:25px; line-height:30px;}
+
+
+.booking-left { width:68%;}
+.booking-right { width:28%;}
+
+}  
+
+@media only screen and ( max-width:1100px) {
+#home-services { background-size:auto auto;}
+.header { border:0px;}
+
+
+.boiler-finance-img img { width: 100%;}
+
+.example-image-link { float: none !important; display: inline-block !important; width: auto !important;}
+
+#lacey-plumbing { 
+background:
+linear-gradient(rgba(255,255,255,0.9),rgba(255,255,255,0.9)),
+url('../images/testimonials-icon.png'); 
+background-repeat:no-repeat,no-repeat; 
+background-position: left 0 bottom 0,bottom 0 left 50%;
+background-size:100% 100%, auto 80%;}
+.lacey-plumbing { width:100%;}
+}
+
+@media only screen and ( max-width:980px) {
+.why-choose-img { float:none;}
+
+.home-form .formrow.pad1 { width:22%;}
+.home-form .formrow { width:23%;}
+.home-form .formrow.pad1 input { font-size:14px;}
+.home-form .formrow input { padding:5px 20px;}
+.home-form .formrow.pad1 { margin:5px 0 0;}
+.home-form .formrow.pad1 input { padding:6px 15px;}
+
+.gas-safe { width:100%;}
+#gas-safe { background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../images/gas-safe-background.jpg'); background-color:#000; background-repeat:no-repeat; background-position: right 25% top 0%;background-size:auto 100%;}
+
+#boiler-finance-row { background-size:auto 100%;}
+.hitachi-logo img { width:100%;} 
+.boiler-finance-left img { width:100%;}
+
+#why-choose { padding:25px 0;}
+
+.home-services li h2 { font-size:23px; line-height:25px;}
+.contact-right p br{ display:none;}
+
+#examples h1 { text-align:center !important; font-size:25px !important; line-height:30px !important; padding:0 !important;}
+}
+
+@media only screen and ( max-width:767px) {
+.header-top { text-align:left;}
+ul.services1 li { text-align:left;}
+h1,.contact-left h1,.boiler-finance-right h1 { font-size:22px; line-height:25px;}
+h2,.areas-we-cover-right h2 {font-size:20px; line-height:24px;}
+h3 {font-size:16px; line-height:20px;}
+p,.worcester-full p { font-family:'Montserrat Light'; font-size:16px;}
+.areas-we-cover-services li { font-size:20px;}
+
+#gas-safe { margin:0px;}
+
+.header-mid h2 { font-size:22px;}
+.header-mid h2 a { font-size:20px; line-height:22px;}
+
+#content,#booking,#accreditations-logo,#footer,#worcester,#complaints,#why-choose,#areas-we-cover,.videos,.video,.video-left,.video-right {  text-align:center;}
+#footer { padding:25px 0;}
+#why-choose { margin:25px 0;}
+.row-left,.row-right,.row2-left,.row2-right,.gas-safe-left,.gas-safe-right,.booking-left,.booking-right,.accreditations-logo-left,.accreditations-logo-right,
+.footer1,.footer2,.footer3,.worcester-left,.worcester-right,.contact-left,.contact-right,.why-choose-left,.why-choose-right,.video-left,.video-right { float: none; display:inline-block; width:100%;}
+.footer1,.footer2,.footer3 { margin:0px; padding:0 0 20px;}
+
+.gas-safe { text-align: left;}
+
+.why-choose-img { margin-bottom:20px;}
+
+.footer3 li a { line-height:30px;}
+ul.services3 li { font-size:16px;}
+
+.contact-left { margin-bottom:6%;}
+.contact-add h3 a { font-size:30px; line-height:35px;}
+.contact-add h3 { font-size:22px; line-height:25px;}
+#complaints { margin:0px;}
+
+.box-pen li { width:48%;}
+
+.areas-we-cover-left,.areas-we-cover-right {float:none; display:inline-block; width:100%; margin:0px; padding:0px;}
+
+.areas-we-cover h1,.accreditations h1 {font-size:28px; margin:15px 0 0;}
+
+#home-services { padding:25px 0; text-align:center;}
+.home-services li { float:none; display:inline-block; width: 40%; margin:0 0 10px; vertical-align:top;}
+
+.home-form { text-align:center;}
+.home-form .formrow { width:31%;}
+.home-form .formrow input { font-size:14px;}
+.home-form .formrow.pad1  { float:none; display:inline-block; width:auto;}
+.home-form .formrow.pad1 input { padding:5px 25px;}
+
+#accreditations-logo { margin:20px 0;}
+.accreditations-logo li { padding: 0 0 10px;}
+
+#copy-right p { font-size:13px;}
+#copy-right p span { font-size:17px;}
+
+#boiler-finance,.boiler-finance-row,#eligibility { text-align:center;}
+.boiler-finance-row-left { margin-bottom:4%;}
+.boiler-finance-left,.boiler-finance-right,.boiler-finance-row-left,.boiler-finance-row-right,.eligibility-left,.eligibility-right {float:none; display:inline-block; width:100%;}
+.boiler-finance-row-left h1,.boiler-finance-row-left h2 span { font-size:22px;}
+.boiler-finance-row-left h1 { padding: 22px 30px;}
+#boiler-finance-row { padding:40px 0;}
+.boiler-finance-row-left h2,.boiler-finance-row-left h3 {padding: 20px 10px;font-size: 20px;}
+.boiler-finance-row-left h3 span { font-size:25px;}
+.hitachi-logo img { width:auto;} 
+.boiler-finance-left img { width:80%;}
+#why-choose { margin:0px;}
+
+.pic-img { width:70%; display:inline-block; float:none;}
+
+
+.lacey-plumbing { text-align: center;}
+.lacey-plumbing p { font-size:17px; line-height:22px;}
+} 
+
+@media only screen and ( max-width:640px) {
+#header-top { display:none;}
+.areas-we-cover-right h2 { font-size:15px; line-height:20px; padding:0px;}
+.areas-we-cover-services li { font-size:16px; line-height:25px;background-position: top 9px left 8px;}
+.booking-right .btn a { font-size: 17px; padding: 5px 20px;}
+
+
+.worcester-left h1, .worcester-right h1 {font-size:19px;line-height:25px;}
+h2 {font-size: 17px;line-height: 20px;}
+.worcester-left h3, .worcester-right h3 {font-size: 16px;line-height: 20px;}
+p,.worcester-full p { font-size:14px; line-height:22px;}
+ul.services3 li { font-size:15px;}
+.header-mid  { margin:0px;}
+
+#worcester-full { background-size:600% auto;}
+.worcester-full h1 { font-size:20px; line-height:25px;}
+
+.gas-safe-logo { float:none; display:inline-block; margin:0px;}
+.gas-safe { text-align: left;}
+
+.header-mid span { display:none;}
+
+.home-form .formrow { width:31%;}
+.home-form .formrow,.home-form .formrow.pad1 {float:none; display:inline-block; width:48%; margin:0;}
+
+.gas-safe h1 { font-size:22px;}
+#gas-safe {background-position: right 37% top 0}
+
+.boiler-finance-left .btn a { font-size:19px;}
+
+#lacey-plumbing { height:auto; margin:0 0 15%;}
+}
+
+@media only screen and ( max-width:540px) {
+.header-mid li {font-size: 20px;line-height: 15px;}
+.header-mid li a { font-size:22px;}
+.header-mid li img { display:none;}
+
+.header-mid { text-align:center;}
+.header-mid h2 a { width:100%;} 
+.worcester-full h1 { font-size:18px; line-height:22px;}
+
+.services-left,.services-right { width:100%;}
+ul.services2 { margin:0px;}
+
+#worcester-full { background-size:1000% auto;}
+
+.box-pen { padding-bottom:20px;}
+.box-pen li a { padding: 160px 0 0 0;}
+.box-pen li#icon1 a,.box-pen li#icon2 a,.box-pen li#icon3 a,.box-pen li#icon4 a { background-size:80% auto;}
+.box-pen li#icon1 a:hover,.box-pen li#icon2 a:hover,.box-pen li#icon3 a:hover,.box-pen li#icon4 a:hover {background-size:80% auto;}
+
+.home-services li { width:40%; margin:0px; padding-bottom:20px;}
+.home-services li h2 { padding: 15px 0; font-size: 20px; line-height:25px;}
+
+.gas-safe p { font-size:15px;}
+ul.services1,.footer3 ul { margin:0;-webkit-column-count: 1; /* Chrome, Safari, Opera */  -moz-column-count: 1; /* Firefox */  column-count: 1; overflow:hidden;}
+ul.services1 li { font-size:15px; line-height:22px;background-position: top 8px left 0;}
+.services { margin-bottom:5%;}
+
+.lacey-plumbing h3 { font-size:18px; line-height:22px;}
+.lacey-plumbing-arrowleft { top:-6%;}
+.lacey-plumbing-arrowright { bottom:-7%;}
+.lacey-plumbing { padding:40px 20px;}
+}
+
+
+@media only screen and ( max-width:460px) {
+.logo img { width:90%;}
+
+#worcester-full { background-size:1200% auto;}
+.box-pen li#icon1 a,.box-pen li#icon2 a,.box-pen li#icon3 a,.box-pen li#icon4 a { background-size:70% auto;}
+.box-pen li#icon1 a:hover,.box-pen li#icon2 a:hover,.box-pen li#icon3 a:hover,.box-pen li#icon4 a:hover {background-size:70% auto;}
+
+.box-pen li a { padding: 120px 0 0 0;}
+
+.home-services li  { width:40%;}
+.home-services li img { width:80%;}
+.home-services li h2 { padding:0px; line-height:18px; font-size:16px;}
+
+.home-form .formrow.pad1 input { padding:7px 12px; font-size:12px; display: inline-block;}
+
+.accreditations-logo li:first-child img { width:80%;}
+
+.hitachi-logo img { width:100%;} 
+.boiler-finance-left .btn a { font-size:13px;}
+
+.lacey-plumbing p { font-size:15px; line-height:20px;}
+
+}
+
+@media only screen and ( max-width:360px) {
+.box-pen { padding-bottom:0px;}
+
+.home-form .formrow,.home-form .formrow.pad1 {float:none; display:inline-block; width:48%; margin:0;}
+
+.home-services li h2 { padding:0px; line-height:18px; font-size:14px;}
+}
