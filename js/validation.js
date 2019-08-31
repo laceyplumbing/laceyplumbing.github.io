@@ -3,10 +3,6 @@ function isValidEmailAddress(emailAddress) {
     return pattern.test(emailAddress);
 };
 $(document).ready(function(){
-	$(".refresh").click(function () {
-		$(".imgcaptcha").attr("src","demo_captcha.php?_="+((new Date()).getTime())); 
-	});
-
 	$('#cnt_form').submit(function(e) {
 		
 		if($('#fullname').val() == ''){
