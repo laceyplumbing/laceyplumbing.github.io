@@ -3,37 +3,34 @@ function isValidEmailAddress(emailAddress) {
     return pattern.test(emailAddress);
 };
 $(document).ready(function(){
-	
-	
-	
 	$(".refresh").click(function () {
 		$(".imgcaptcha").attr("src","demo_captcha.php?_="+((new Date()).getTime())); 
 	});
-	
+
 	$('#cnt_form').submit(function(e) {
 		
 		if($('#fullname').val() == ''){
-			alert("Please enter your Full Name");
+			alert("Please enter your full name");
 			$('#fullname').focus();
 			return false;
 		}
 		if($('#telephone').val() == ''){
-			alert("Please enter your Telephone");
+			alert("Please enter your telephone");
 			$('#telephone').focus();
 			return false;
 		}
 		if(!isValidEmailAddress($('#email').val())){
-			alert("Please enter your Valid Email Address");
+			alert("Please enter your valid email address");
 			$('#email').focus();
 			return false;
 		}
 		if($('#postcode').val() == ''){
-			alert("Please enter your Postcode");
+			alert("Please enter your postcode");
 			$('#postcode').focus();
 			return false;
 		}
 		if($('#enquirytype').val() == ''){
-			alert("Please fill your Enquiry Type");
+			alert("Please fill your enquiry type");
 			$('#enquirytype').focus();
 			return false;
 		}
@@ -42,13 +39,6 @@ $(document).ready(function(){
 			$('#captcha').focus();
 			return false;
 		}
-		$.post("sendinfo.php", $("#cnt_form").serialize(), function(response){
-			if(response==0){
-			   alert("wrong captcha code! Please enter correct code");
-			}else{
-				window.location.href = 'thanks.html';
-			}
-		});
-		return false;
+		return true;
 	});
 });

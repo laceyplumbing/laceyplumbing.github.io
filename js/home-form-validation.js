@@ -4,35 +4,22 @@ function isValidEmailAddress(emailAddress) {
 };
 
 $(document).ready(function(){
-	
-	//$(".refresh").click(function () {
-		//$(".imgcaptcha").attr("src","demo_captcha.php?_="+((new Date()).getTime())); 
-	//});
-	
 	$('#cnt_form_1').submit(function(e) {
-		
 		if($('#entername').val() == ''){
-			alert("Please enter your Name");
+			alert("Please enter your name");
 			$('#entername').focus();
 			return false;
 		}
 		if($('#entertelephone').val() == ''){
-			alert("Please fill your Phone No");
+			alert("Please fill your phone number");
 			$('#entertelephone').focus();
 			return false;
 		}
 		if(!isValidEmailAddress($('#enteremaill').val())){
-			alert("Please enter your Valid Email Address");
+			alert("Please enter your valid email address");
 			$('#enteremaill').focus();
 			return false;
 		}
-		$.post("home-form.php", $("#cnt_form_1").serialize(), function(response){
-			//if(response==0){
-			//   alert("wrong captcha code! Please enter correct code");
-			//}else{
-			//}
-			window.location.href = 'thanks.html';
-		});
-		return false;
+		return true;
 	});
 });
