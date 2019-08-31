@@ -3,7 +3,7 @@ function isValidEmailAddress(emailAddress) {
     return pattern.test(emailAddress);
 };
 $(document).ready(function(){
-	$('#cnt_form').submit(function(e) {
+	$('#contact_form').submit(function(e) {
 		
 		if($('#fullname').val() == ''){
 			alert("Please enter your full name");
